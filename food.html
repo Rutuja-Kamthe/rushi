@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title> Colors in CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-image: url(https://images.unsplash.com/photo-1609517405102-8e258999ef48?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGZvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+            
+            background-image: url(https://images.unsplash.com/reserve/EnF7DhHROS8OMEp2pCkx_Dufer%20food%20overhead%20hig%20res.jpg?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+            
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+        
+        .left {
+            display: inline-block;
+            */border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            font-size: 24px;
+            color: yellow;
+            font-family: 'Berkshire Swash', cursive;
+        }
+        .mid {
+            display: block;
+            text-align: center;
+            left: 320px;
+            
+            top: 20px;
+            position: absolute;
+            font-family: 'Berkshire Swash', cursive;
+        
+            
+        }
+            
+            
+            
+        
+
+        .right {
+            position: absolute;
+            right: 43px;
+            top: 43px;
+            display: inline-block;
+           /* border: 2px solid black;*/ 
+            font-size: 24px;
+            font-family: 'Berkshire Swash', cursive;
+        }
+        .navbar {
+            display: inline-block;
+            left: 60px;
+            top: 20px;
+
+            
+        
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+           
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: white;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            right: 20px;
+            top: 20px;
+            background-color: black;
+            color:white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: green;
+        }
+        .container{
+            margine: 300px;
+            padding: 100px;
+            text-align: center;
+            color: white;
+            font-size: 35px;
+        }
+        h1{
+            font-family: 'Permanent Marker', cursive;
+            font-size: bold;
+            color: green;
+            
+        }
+        p{
+            
+            font-family: 'Courgette', cursive;
+            font-size: 20px;
+            margine: 0px;
+            padding: 0px;
+            
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/gym.png" alt="">
+            <div>Delicious Food</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="Active">Home</a></li>
+                <li><a href="#" >About Us</a></li>
+                <li><a href="#" >Our Clients</a></li>
+                <li><a href="#" >Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Order Now</button>
+            
+        </div>
+    </header>
+    <div class="container">
+        <h1>DELICIOUS FOOD</h1>
+        <P>Food, substance consisting essentially of protein,carbohydrate,fat and other
+            nutrients used in the body of an organisam to sustain growth and vital processes and furnish energy......
+            To learn more about the sequance of transfer of matter and energy in the from of food form organism to organism !!!
+
+        </P>
+    
+    
+    </div>
+    
+    
+</body>
+</html>
